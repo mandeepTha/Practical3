@@ -1,0 +1,23 @@
+c(1,2,3)
+myvector<-c(1,2,3)
+myvector*2
+paste("a","b")
+paste(myvector,"ok")
+myothervector<-c("Sailesh", "Sanjay")
+paste(myothervector,"Hi")
+goals<-c(1,2,1,2,2)
+summary(goals)
+mean(goals)
+median(goals)
+sd(goals)
+mtcars
+head(mtcars)
+tail(mtcars)
+names(mtcars)
+mtcars$mpg
+mean(mtcars$mpg)
+mtcars$hp
+mean(mtcars$hp)
+sd(mtcars$hp)
+max(mtcars$hp)
+summary(mtcars)
