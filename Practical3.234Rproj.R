@@ -46,3 +46,4 @@ cor.test(mtcars$mpg,mtcars$hp,method="spearman")
 plot(mtcars$hp,mtcars$mpg,xlab = "Horsepower", ylab ="Miles per Gallon", main = "Scatterplot of MPG vs Horsepower")
 #Add a trend line
 abline(lm(mpg~hp, data = mtcars), col= "red")
+summary(HRDataset_v14)
